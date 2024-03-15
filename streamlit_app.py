@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart Test Automation App')
-
+st.image("https://animals.sandiegozoo.org/sites/default/files/2016-09/animals_hero_porcupine.jpg")
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
 def generate_response(input_text):
